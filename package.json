@@ -13,13 +13,16 @@
   "author": "Tae-gyu Yun",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.20.0",
     "bcryptjs": "^2.4.3",
+    "client": "file:client",
     "config": "^3.3.1",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.27",
+    "normalize-url": "^5.1.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
