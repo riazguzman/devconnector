@@ -3,9 +3,7 @@ const connectDB = require("./config/db");
 const path = require("path");
 
 const PORT = process.env.PORT || 5000; // looks for environment variable which is useful with heroku, but if there are no environment variables, listen to local port 5000.
-
 const app = express();
-
 // Connect Database with connectDB.
 connectDB();
 // Init Middleware. Body parser for transforming data in 'req' and 'res' to be of a type compatible with sending information etc.
