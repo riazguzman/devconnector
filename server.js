@@ -10,7 +10,6 @@ const app = express();
 connectDB();
 // Init Middleware. Body parser for transforming data in 'req' and 'res' to be of a type compatible with sending information etc.
 app.use(express.json({ extended: false }));
-
 // Define Routes
 app.use("/api/users", require("./routes/api/users")); // As seen in the users.js file, the route is defined to be '/'. The call to 'app.use' here allows the route to be pertained to the first argument. This is the way we import routes defined in another file.
 app.use("/api/auth", require("./routes/api/auth"));
