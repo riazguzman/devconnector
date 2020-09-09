@@ -8,7 +8,6 @@ const app = express();
 
 // Connect Database with connectDB.
 connectDB();
-
 // Init Middleware. Body parser for transforming data in 'req' and 'res' to be of a type compatible with sending information etc.
 app.use(express.json({ extended: false }));
 
