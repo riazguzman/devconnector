@@ -2,7 +2,7 @@ const express = require("express");
 const connectDB = require("./config/db");
 const path = require("path");
 
-const PORT = process.env.Port || 5000; // looks for environment variable which is useful with heroku, but if there are no environment variables, listen to local port 5000.
+const PORT = process.env.PORT || 5000; // looks for environment variable which is useful with heroku, but if there are no environment variables, listen to local port 5000.
 
 const app = express();
 
